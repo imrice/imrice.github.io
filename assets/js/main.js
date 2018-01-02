@@ -57,10 +57,12 @@ var parallelism = (function($) { var _ = {
 						minRows: 1,
 
 					// Padding (in px) between items (0 = no padding).
-						padding: 5,
+                        //padding: 5,
+                        padding: 1,
 
 					// Padding color.
 						paddingColor: '#fff',
+                        //paddingColor: '#3399ff',
 
 					// If true, reel scroll will reset on page refresh.
 						resetScroll: true,
